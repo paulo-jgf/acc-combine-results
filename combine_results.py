@@ -106,6 +106,8 @@ def main():
     
     with open('combined_results.html', 'w') as f:
         f.write(html)
+        
+    print('Done!!')
 
 
 if __name__ == "__main__":
