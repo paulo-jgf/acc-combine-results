@@ -28,7 +28,10 @@ def urlAuto():
         print('Get urls page ', pg)
         
         if not results:
+            print('None found')
             break
+        
+        print('Found')
         
         for r in results:
             urls_auto.append('https://dkgoraceacc.emperorservers.com{}'.format(
